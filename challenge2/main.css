@@ -2,4 +2,14 @@
   background-color: #79797f;
   width: 150px;
   height: 150px;
+
+  transition-property: left;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  position: absolute;
+  left:0;
+}
+
+.box:hover {
+  left: 50px;
 }
